@@ -1,0 +1,80 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/mucciacitomaria/Desktop/RTLS-Azure-Cloud/AptarCloud.csproj": {}
+  },
+  "projects": {
+    "/Users/mucciacitomaria/Desktop/RTLS-Azure-Cloud/AptarCloud.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mucciacitomaria/Desktop/RTLS-Azure-Cloud/AptarCloud.csproj",
+        "projectName": "AptarCloud",
+        "projectPath": "/Users/mucciacitomaria/Desktop/RTLS-Azure-Cloud/AptarCloud.csproj",
+        "packagesPath": "/Users/mucciacitomaria/.nuget/packages/",
+        "outputPath": "/Users/mucciacitomaria/Desktop/RTLS-Azure-Cloud/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/mucciacitomaria/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Azure.Cosmos": {
+              "target": "Package",
+              "version": "[3.34.0, )"
+            },
+            "Microsoft.Azure.WebJobs.Extensions.CosmosDB": {
+              "target": "Package",
+              "version": "[3.0.10, )"
+            },
+            "Microsoft.Extensions.Configuration.UserSecrets": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.NET.Sdk.Functions": {
+              "target": "Package",
+              "version": "[4.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

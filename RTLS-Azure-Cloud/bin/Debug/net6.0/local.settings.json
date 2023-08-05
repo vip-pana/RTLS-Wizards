@@ -1,0 +1,12 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=rtlswirzardsstorage;AccountKey=8Kr3dDL1jWNOhkPj0NHGLBbpRHOeZ08OIkVyZ17/+lth2kGQyeNeZorzHHKp95g0VtReIzuTk5i++AStSVmrog==;EndpointSuffix=core.windows.net",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "cosmosDbConnection": "AccountEndpoint=https://rtlswizards2.documents.azure.com:443/;AccountKey=lYqzehKTj99e3JywkHwWPawkWRzTTjcGb4q6iYGniM3VTGp7nu5ezUT9bF7i0umLdXjsB8Wn56JrACDbe8duzg=="
+  },
+  "Host": {
+    "LocalHttpPort": 7071,
+    "CORS": "*"
+  }
+}

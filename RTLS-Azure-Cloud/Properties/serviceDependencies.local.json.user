@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "cosmosdb1": {
+      "restored": true,
+      "restoreTime": "2023-06-30T08:06:48.7137285Z"
+    },
+    "secrets1": {
+      "restored": true,
+      "restoreTime": "2023-06-30T08:06:07.0184541Z"
+    }
+  },
+  "parameters": {
+    "cosmosdb1.subscriptionId": {
+      "Name": "cosmosdb1.subscriptionId",
+      "Type": "subscription",
+      "Value": "5331c374-7e39-4c8e-b04e-03dc53e4872a"
+    },
+    "cosmosdb1.resourceGroupName": {
+      "Name": "cosmosdb1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "RTLS_Wizards"
+    }
+  }
+}
